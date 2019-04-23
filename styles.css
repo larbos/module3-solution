@@ -1,7 +1,7 @@
 body {
 	font-size: 16px;
 	color: black;
-	background-color: white;
+	background-color: #f9fbe6;
 	font-family: 'Oxygen', sans-serif;
 
 }
@@ -19,6 +19,10 @@ body {
 #navbar-toggler-icon {
 	color: red;
 }
+.navbar-brand h1{
+	font-weight: 200;
+	margin-top: 1px;
+}
 #nav-list{
 		color: #951C49;
 }
@@ -28,6 +32,7 @@ body {
 }
 #nav-list a:hover {
 	background:#E7E7E7;
+	color: #0D47A1;
 }
 #dishes {
 	background-color: lightgrey;
@@ -37,7 +42,7 @@ body {
 h4 {
 	text-align: center;
 }
-#header-nav {
+.header-nav {
 	margin-right: 0px;
 }
 p {
